@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+p {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.equals {
+  font-size: 80px;
+  margin: 20px 0px 0px 0px;
+}
+
+marquee {
+  font-size: 75px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+body {
+  background-image: url("https://th.bing.com/th/id/R.8a0d349561fc25ef6abec2b1c311a73f?rik=Emy5NOwo2Lgx8A&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fTVGvq2H.png&ehk=bU51uM7VzCimzjOvSnTOS2xedKHJBZWq52XK5jfqT4w%3d&risl=&pid=ImgRaw&r=0");
+}
+
+.matrix {
+  opacity: 0.75;
+}
+
+.box:hover {
+  background-color: black;
+  color: white;
+  border: solid 1px red;
+}

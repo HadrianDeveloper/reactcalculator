@@ -1,19 +1,18 @@
-import './App.css';
-import Heading from './components/Heading.js'
-import Numberbuilder from './components/Numberbuilder.js'
-import Numbergrid from './components/Numbergrid';
+import "./App.css";
+import Heading from "./components/Heading.js";
+import Numberbuilder from "./components/Numberbuilder.js";
+import Numbergrid from "./components/Numbergrid";
 
 function App() {
   return (
     <div className="App">
-        <Heading />
-        <Numbergrid />
-  </div>
+      <Heading />
+      <Numbergrid />
+    </div>
   );
 }
 
 export default App;
-
 
 /*
 LOGIC:
