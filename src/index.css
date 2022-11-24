@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.numgrid {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px;
+  grid-auto-rows: 150px;
+  width: 750px;
+  margin: auto;
+  background: white;
+}
+
+.box {
+  border: solid 1px black;
+  background: white;
+}
+
+.equalsbox {
+  display: grid;
+  grid-template-columns: 750px;
+  grid-auto-rows: 150px;
+  width: 750px;
+  margin: auto;
+  background: white;
+}
