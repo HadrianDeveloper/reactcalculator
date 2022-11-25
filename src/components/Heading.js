@@ -2,7 +2,7 @@ function Heading() {
   return (
     <div className="matrix">
       <div className="equalsbox">
-        <div className="box">
+        <div>
           <marquee>Welcome to our React Calculator</marquee>
         </div>
       </div>

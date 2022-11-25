@@ -17,7 +17,6 @@ function Numbergrid() {
   };
 
   function StringEvaluator(str) {
-    // console.log(typeof str);
     let result = Function("return " + str)();
     return result;
   }
