@@ -7,17 +7,19 @@ function Numbergrid() {
 
   const mathOpNum = (num) => {
     setCount((currCount) => {
-      let expression = `${currCount} ${mathOp} ${num}`;
-      // let result = eval(expression);
-      // console.log(result);
+      let expression = "";
+      expression += `${currCount}`;
+      expression += `${mathOp}`;
+      expression += `${num}`;
+
       return expression;
     });
   };
 
   function StringEvaluator(str) {
-    console.log(str);
+    // console.log(typeof str);
     let result = Function("return " + str)();
-    return result.toString();
+    return result;
   }
 
   return (
