@@ -1,5 +1,13 @@
 function Heading() {
-  return <h1>React calculator</h1>;
+  return (
+    <div className="matrix">
+      <div className="equalsbox">
+        <div className="box">
+          <marquee>Welcome to our React Calculator</marquee>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Heading;
